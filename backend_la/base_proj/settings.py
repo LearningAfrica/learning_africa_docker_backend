@@ -155,7 +155,7 @@ SITE_ID = 1
 if DEBUG:
     WEBSITE_URL = 'http://localhost:8000'
 else:
-    WEBSITE_URL = 'https://learningafrica.com'
+    WEBSITE_URL = 'http://64.227.124.25:1337'
 
 AUTH_USER_MODEL = 'authentication.User'
 
