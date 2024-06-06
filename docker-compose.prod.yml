@@ -6,7 +6,7 @@ services:
     ports:
       - 1337:80
     depends_on:
-      - lea
+      - learningafrica_web
   learningafrica_web:
     build: ./backend_la
     command: gunicorn base_proj.wsgi:application --bind 0.0.0.0:8000
