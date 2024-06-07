@@ -11,7 +11,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
-USE_DOCKER = False
+USE_DOCKER = True
 
 ### Development settings
 if USE_DOCKER == False:
